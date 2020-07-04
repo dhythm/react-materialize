@@ -1,5 +1,5 @@
 {
-  "name": "react-materialize",
+  "name": "react-materialize-css",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-materialize": "^3.9.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
@@ -21,8 +23,10 @@
     "@babel/preset-react": "^7.10.4",
     "@types/babel__core": "^7.1.9",
     "@types/babel__preset-env": "^7.9.0",
+    "@types/concurrently": "^5.2.1",
     "@types/eslint": "^7.2.0",
     "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/materialize-css": "^1.0.8",
     "@types/prettier": "^2.0.1",
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.8",
